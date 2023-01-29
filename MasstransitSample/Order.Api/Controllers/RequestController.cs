@@ -27,12 +27,15 @@ public class RequestController : ControllerBase
     {
         _logger.LogInformation("{name} order information Sent !", command.UserName);
 
-        //await _publishEndpoint.Publish<OrderSubmittedEvent>(new
-        //{
-        //    command.User,
-        //    command.Amount,
-        //    command.ProductId
-        //});UserInfoCommand -> UserInfo
+        await _publishEndpoint.Publish<OrderSubmittedEvent>(new
+        {
+            command.Amount,
+            command.ProductId,
+            command.UserId,
+            command.UserName,
+            command.Number,
+            command.EmailAddress
+        }); 
         var response = await _client.GetResponse<OrderSubmittedResponse>(new
         {
             command.Amount,

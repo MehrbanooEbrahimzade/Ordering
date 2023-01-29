@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ihirTcWLGqPM5cZ/XS7dW5vI0sN44t6HQFP9OEsNHueejKn56HYwqD9bKgoQ/lfpHsw1RZGqbZ0Q0P27ZANBow==",
+  "dgSpecHash": "QobsDNBqy4rxkQ6U3PfAwmnwg30qjNNE7e9c/g6RUGWwljjuPbu+2gD279ZBZra7dTSD8ZB91Dl/46czW3lGXg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Accounting.Api\\Accounting.Api.csproj",
   "expectedPackageFiles": [
@@ -17,10 +17,11 @@
     "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\3.1.18\\microsoft.extensions.diagnostics.healthchecks.abstractions.3.1.18.nupkg.sha512",
     "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.18\\microsoft.extensions.fileproviders.abstractions.3.1.18.nupkg.sha512",
     "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.18\\microsoft.extensions.hosting.abstractions.3.1.18.nupkg.sha512",
-    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.18\\microsoft.extensions.logging.abstractions.3.1.18.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\npgsql\\7.0.1\\npgsql.7.0.1.nupkg.sha512",
     "C:\\Users\\mehrb\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
     "C:\\Users\\mehrb\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\mehrb\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",

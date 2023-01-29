@@ -1,4 +1,4 @@
-name: dockercompose13757244072320406045
+name: dockercompose5936726716009857193
 services:
   emaildb:
     container_name: emaildb
@@ -56,9 +56,9 @@ services:
     restart: always
 networks:
   default:
-    name: dockercompose13757244072320406045_default
+    name: dockercompose5936726716009857193_default
 volumes:
   pgadmin_data:
-    name: dockercompose13757244072320406045_pgadmin_data
+    name: dockercompose5936726716009857193_pgadmin_data
   postgres_data:
-    name: dockercompose13757244072320406045_postgres_data
+    name: dockercompose5936726716009857193_postgres_data
