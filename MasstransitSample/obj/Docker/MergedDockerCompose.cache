@@ -1,0 +1,64 @@
+name: dockercompose13757244072320406045
+services:
+  emaildb:
+    container_name: emaildb
+    environment:
+      POSTGRES_DB: emaildb
+      POSTGRES_PASSWORD: admin1234
+      POSTGRES_USER: admin
+    image: postgres
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: postgres_data
+      target: /var/lib/postgresql/data
+      volume: {}
+  pgadmin:
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@aspnetrun.com
+      PGADMIN_DEFAULT_PASSWORD: admin1234
+    image: dpage/pgadmin4
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5050"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: pgadmin_data
+      target: /root/.pgadmin
+      volume: {}
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    restart: always
+networks:
+  default:
+    name: dockercompose13757244072320406045_default
+volumes:
+  pgadmin_data:
+    name: dockercompose13757244072320406045_pgadmin_data
+  postgres_data:
+    name: dockercompose13757244072320406045_postgres_data

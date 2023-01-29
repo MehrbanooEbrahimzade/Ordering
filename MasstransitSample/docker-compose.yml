@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    
+  emaildb:
+    image: postgres
+
+  pgadmin:
+    image: dpage/pgadmin4 
+    
+volumes:
+  postgres_data:
+  pgadmin_data:
