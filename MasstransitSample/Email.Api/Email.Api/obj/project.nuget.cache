@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "dgSpecHash": "7hwIGHHsyGbveoPD5uskkZRkBy+B3DLjeWKkbOdvKwnogXONXqd1Zg7LUZNdhagnTPcqSlb8fEx1210zjjDfrw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Api\\Email.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mehrb\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.5.1\\fluentvalidation.dependencyinjectionextensions.9.5.1.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\masstransit\\8.0.12\\masstransit.8.0.12.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\masstransit.abstractions\\8.0.12\\masstransit.abstractions.8.0.12.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\masstransit.rabbitmq\\8.0.12\\masstransit.rabbitmq.8.0.12.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\3.1.18\\microsoft.extensions.diagnostics.healthchecks.3.1.18.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\3.1.18\\microsoft.extensions.diagnostics.healthchecks.abstractions.3.1.18.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.18\\microsoft.extensions.fileproviders.abstractions.3.1.18.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.18\\microsoft.extensions.hosting.abstractions.3.1.18.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\npgsql\\5.0.3\\npgsql.5.0.3.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\system.text.json\\6.0.2\\system.text.json.6.0.2.nupkg.sha512",
+    "C:\\Users\\mehrb\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
