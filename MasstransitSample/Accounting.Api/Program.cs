@@ -3,10 +3,12 @@ using Accounting.Api.Repository.IRepository;
 using Accounting.Api.RequestConsumer;
 using EventBus.Messages.Events;
 using MassTransit;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 builder.Services.AddSingleton<IAccountingRepository, AccountingRepository>();
 
 builder.Services.AddMassTransit(x =>

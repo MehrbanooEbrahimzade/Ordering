@@ -108,3 +108,5 @@ C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Accounting.Api\obj\Debug\
 C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Accounting.Api\obj\Debug\net6.0\Accounting.Api.pdb
 C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Accounting.Api\obj\Debug\net6.0\Accounting.Api.genruntimeconfig.cache
 C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Accounting.Api\obj\Debug\net6.0\ref\Accounting.Api.dll
+C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Accounting.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Accounting.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

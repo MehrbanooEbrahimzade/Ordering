@@ -2,16 +2,22 @@
 {
     public class Order
     {
-        public Order(Guid userId, string userName, int amount, int productId)
+        public Order(int productId, int amount, Guid userId, string userName, string number, string emailAddress)
         {
+            ProductId = productId;
+            Amount = amount;
             UserId = userId;
             UserName = userName;
-            Amount = amount;
-            ProductId = productId;
+            Number = number;
+            EmailAddress = emailAddress;
         }
-        public Guid UserId { get;private set;}
-        public string UserName { get; private set;}
+
         public int ProductId { get; private set;}
         public int Amount { get; private set;}
+
+        public Guid UserId { get; private set; }
+        public string UserName { get; private set; }
+        public string Number { get; private set; }
+        public string EmailAddress { get; private set; }
     }
 }

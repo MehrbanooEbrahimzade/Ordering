@@ -1,1 +1,2 @@
 C:\Users\mehrb\source\repos\MasstransitSample\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\mehrb\source\repos\Ordering\MasstransitSample\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

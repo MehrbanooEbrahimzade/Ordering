@@ -2,12 +2,20 @@
 using Accounting.Api.Entities;
 using System.Linq;
 using Accounting.Api.Commands;
+using AutoMapper;
 
 namespace Accounting.Api.Repository
 {
     public class AccountingRepository:IAccountingRepository
     {
         private List<AccountingModel> _accounts = new();
+        private readonly IMapper _mapper;
+
+
+        public AccountingRepository(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
 
         public async Task<List<AccountingModel>> GetAll()
         {
@@ -16,7 +24,7 @@ namespace Accounting.Api.Repository
 
         public async Task<bool> AddAccount(AddAccountingCommand account)
         {
-            var newAccount = new AccountingModel(account.UserId, account.UserName, account.Amount, account.ProductId);
+            var newAccount = _mapper.Map<AccountingModel>(account);
             _accounts.Add(newAccount);
             return true;
         }

@@ -76,3 +76,5 @@ C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Order.Api\obj\Debug\net6.
 C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Order.Api\obj\Debug\net6.0\Order.Api.pdb
 C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Order.Api\obj\Debug\net6.0\Order.Api.genruntimeconfig.cache
 C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Order.Api\obj\Debug\net6.0\ref\Order.Api.dll
+C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Order.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Order.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
