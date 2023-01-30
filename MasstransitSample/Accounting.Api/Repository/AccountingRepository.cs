@@ -1,6 +1,7 @@
 ﻿using Accounting.Api.Repository.IRepository;
 using Accounting.Api.Entities;
 using Accounting.Api.Commands;
+using Accounting.Api.Extensions;
 using AutoMapper;
 using Npgsql;
 using Dapper;
@@ -35,6 +36,9 @@ namespace Accounting.Api.Repository
             var newAccount = _mapper.Map<AccountingModel>(account);
             var connectionString = _configuration.GetConnectionString("AccountingDb");
             using var connection = new NpgsqlConnection(connectionString);
+            
+            var utcTime = newAccount.CreatedDate.SetKindUtc();
+            newAccount.SetCreatedDate(utcTime); 
 
             var affected =
                 await connection.ExecuteAsync(

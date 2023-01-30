@@ -1,48 +1,20 @@
-using Accounting.Api.Repository;
-using Accounting.Api.Repository.IRepository;
-using Accounting.Api.RequestConsumer;
-using EventBus.Messages.Events;
-using MassTransit;
-using System.Reflection;
+using Accounting.Api.Extensions;
 
-var builder = WebApplication.CreateBuilder(args);
-var configuration = builder.Configuration;
+namespace Accounting.Api;
 
-builder.Services.AddSingleton<IAccountingRepository, AccountingRepository>();
-builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
-
-builder.Services.AddMassTransit(x =>
+public class Program
 {
-    x.AddConsumer<CheckOrderStatusConsumer>();
-
-    x.SetKebabCaseEndpointNameFormatter();
-    x.UsingRabbitMq((context, cfg) =>
+    public static void Main(string[] args)
     {
-        cfg.Host(configuration["EventBusSettings:HostAddress"]);
-        cfg.ConfigureEndpoints(context);
-    });
-    x.AddRequestClient<OrderSubmittedResponse>();
-});
-builder.Services.AddScoped<CheckOrderStatusConsumer>();
-// Add services to the container.
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+        var host = CreateHostBuilder(args).Build();
+        host.MigrateDatabase<Program>();
+        host.Run();
+    }
 
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            });
 }
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();

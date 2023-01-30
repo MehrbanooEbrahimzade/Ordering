@@ -1,8 +1,8 @@
 ﻿using Npgsql;
 
-namespace Email.Api.Extensions
+namespace Accounting.Api.Extensions
 {
-    public static class HostExtensions
+    public static class HostExtension
     {
         public static IHost MigrateDatabase<TContext>(this IHost host, int? retry = 0)
         {
@@ -19,7 +19,7 @@ namespace Email.Api.Extensions
                     logger.LogInformation("Migrating postresql database.");
 
                     using var connection = new NpgsqlConnection
-                        (configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
+                        (configuration.GetConnectionString("AccountingDb"));
                     connection.Open();
 
                     using var command = new NpgsqlCommand
@@ -27,7 +27,10 @@ namespace Email.Api.Extensions
                         Connection = connection
                     };
 
-                    command.CommandText = "DROP TABLE IF EXISTS Accounting; CREATE EXTENSION IF NOT EXISTS \"uuid-ossp\" ";
+                    command.CommandText = "DROP TABLE IF EXISTS Accounting";
+                    command.ExecuteNonQuery();
+
+                    command.CommandText = "CREATE EXTENSION IF NOT EXISTS \"uuid-ossp\" ";
                     command.ExecuteNonQuery();
 
                     command.CommandText = @"CREATE TABLE Accounting(Id uuid NOT NULL,
@@ -42,6 +45,14 @@ namespace Email.Api.Extensions
                     command.ExecuteNonQuery();
 
                     logger.LogInformation("Migrated postresql database.");
+
+
+                    //command.CommandText =
+                    //    @"INSERT INTO Accounting(Id, ProductId,Amount, UserId,UserName,Number,EmailAddress,CreatedDate)
+                    //                      VALUES('3812eadf-86ce-464b-a5a2-be2f57a83fec',23,2,'3812eadf-86ce-464b-a5a2-be2f57a83fec','mehri',
+                    //                        '0911', 'mehri@gmail.com', '2016-06-22 19:10:25-07')";
+                    //command.ExecuteNonQuery();
+
                 }
                 catch (NpgsqlException ex)
                 {
@@ -51,11 +62,10 @@ namespace Email.Api.Extensions
                     {
                         retryForAvailability++;
                         System.Threading.Thread.Sleep(2000);
-                        MigrateDatabase<TContext>(host, retryForAvailability);
+                        MigrateDatabase<TContext>(host);
                     }
                 }
             }
-
             return host;
         }
     }

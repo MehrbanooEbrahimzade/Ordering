@@ -53,11 +53,6 @@ namespace Email.Api.Extensions
             }
 
         }
-
-        private static void ExecuteMigrations(IConfiguration configuration)
-        {
-
-
-        }        
+        
     }
 }

@@ -14,6 +14,8 @@
             EmailAddress = emailAddress;
         }
 
+        public AccountingModel() { }
+
         public DateTime CreatedDate { get;private set; }
         
         public Guid Id { get; private set; }
@@ -25,5 +27,9 @@
         public string Number { get; private set; }
         public string EmailAddress { get; private set; }
 
+        public void SetCreatedDate(DateTime createdDate)
+        {
+            CreatedDate = createdDate;
+        }
     }
 }
