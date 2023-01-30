@@ -22,3 +22,15 @@ C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Email.Api\Email.Domain\ob
 C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\refint\Email.Domain.dll
 C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\Email.Domain.pdb
 C:\Users\mehrb\source\repos\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\ref\Email.Domain.dll
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\bin\Debug\net6.0\Email.Domain.deps.json
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\bin\Debug\net6.0\Email.Domain.dll
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\bin\Debug\net6.0\Email.Domain.pdb
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\Email.Domain.csproj.AssemblyReference.cache
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\Email.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\Email.Domain.AssemblyInfoInputs.cache
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\Email.Domain.AssemblyInfo.cs
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\Email.Domain.csproj.CoreCompileInputs.cache
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\Email.Domain.dll
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\refint\Email.Domain.dll
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\Email.Domain.pdb
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Email.Api\Email.Domain\obj\Debug\net6.0\ref\Email.Domain.dll

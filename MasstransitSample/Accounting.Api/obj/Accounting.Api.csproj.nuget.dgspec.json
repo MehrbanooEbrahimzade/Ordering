@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Accounting.Api\\Accounting.Api.csproj": {}
+    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Accounting.Api\\Accounting.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Accounting.Api\\Accounting.Api.csproj": {
+    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Accounting.Api\\Accounting.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Accounting.Api\\Accounting.Api.csproj",
+        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Accounting.Api\\Accounting.Api.csproj",
         "projectName": "Accounting.Api",
-        "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Accounting.Api\\Accounting.Api.csproj",
-        "packagesPath": "C:\\Users\\mehrb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Accounting.Api\\obj\\",
+        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Accounting.Api\\Accounting.Api.csproj",
+        "packagesPath": "C:\\Users\\^Legion^\\.nuget\\packages\\",
+        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Accounting.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mehrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\^Legion^\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +27,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj": {
-                "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj"
+              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj": {
+                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj"
               }
             }
           }
@@ -51,6 +57,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
             },
             "MassTransit": {
               "target": "Package",
@@ -88,21 +98,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj": {
+    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
+        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
         "projectName": "EventBus.Messages",
-        "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
-        "packagesPath": "C:\\Users\\mehrb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\EventBus.Messages\\obj\\",
+        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
+        "packagesPath": "C:\\Users\\^Legion^\\.nuget\\packages\\",
+        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mehrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\^Legion^\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,6 +125,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -143,7 +159,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

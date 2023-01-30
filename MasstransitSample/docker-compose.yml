@@ -3,7 +3,7 @@ services:
   rabbitmq:
     image: rabbitmq:3-management-alpine
     
-  emaildb:
+  accountingdb:
     image: postgres
 
   pgadmin:

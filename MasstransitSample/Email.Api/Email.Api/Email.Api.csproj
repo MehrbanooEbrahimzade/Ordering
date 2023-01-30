@@ -21,7 +21,6 @@
     <ProjectReference Include="..\Email.Application\Email.Application.csproj" />
     <ProjectReference Include="..\Email.Domain\Email.Domain.csproj" />
     <ProjectReference Include="..\Email.Infrastructure\Email.Infrastructure.csproj" />
-    <ProjectReference Include="..\MasstransitSample\EventBus.Messages\EventBus.Messages.csproj" />
   </ItemGroup>
 
 </Project>

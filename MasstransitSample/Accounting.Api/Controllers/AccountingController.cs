@@ -26,13 +26,6 @@ namespace Accounting.Api.Controllers
             return Ok(accounts);
         }
 
-        // Get Account by UserName from AccountingRepository
-        [HttpGet("{userName}")]
-        public async Task<IActionResult> Get(string userName)
-        {
-            var account = await _accountingRepository.GetBy(userName);
-            return Ok(account);
-        }
 
         // Add Account to AccountingRepository
         [HttpPost]

@@ -24,7 +24,6 @@ namespace Email.Infrastructure.Repositories
                 return email;
             }
         }
-
         public async Task<bool> CreateEmail(Domain.Entities.Email email)
         {
             var connectionString = _configuration.GetConnectionString("ConnectionString");

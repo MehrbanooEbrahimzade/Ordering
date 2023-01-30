@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Api\\Email.Api.csproj": {}
+    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Api\\Email.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Api\\Email.Api.csproj": {
+    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Api\\Email.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Api\\Email.Api.csproj",
+        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Api\\Email.Api.csproj",
         "projectName": "Email.Api",
-        "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Api\\Email.Api.csproj",
-        "packagesPath": "C:\\Users\\mehrb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Api\\obj\\",
+        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Api\\Email.Api.csproj",
+        "packagesPath": "C:\\Users\\^Legion^\\.nuget\\packages\\",
+        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mehrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\^Legion^\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,23 +27,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj": {
-                "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj"
+              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj": {
+                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj"
               },
-              "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
-                "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj"
+              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
+                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj"
               },
-              "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj"
-              },
-              "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj": {
-                "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj"
+              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj": {
+                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj"
               }
             }
           }
@@ -105,21 +108,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj": {
+    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj",
+        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj",
         "projectName": "Email.Application",
-        "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj",
-        "packagesPath": "C:\\Users\\mehrb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\obj\\",
+        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj",
+        "packagesPath": "C:\\Users\\^Legion^\\.nuget\\packages\\",
+        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mehrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\^Legion^\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -127,14 +135,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
-                "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj"
+              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
+                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj"
               }
             }
           }
@@ -194,21 +203,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
+    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj",
+        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj",
         "projectName": "Email.Domain",
-        "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj",
-        "packagesPath": "C:\\Users\\mehrb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\obj\\",
+        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj",
+        "packagesPath": "C:\\Users\\^Legion^\\.nuget\\packages\\",
+        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mehrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\^Legion^\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -216,6 +230,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -249,21 +264,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj": {
+    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj",
+        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj",
         "projectName": "Email.Infrastructure",
-        "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mehrb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\obj\\",
+        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\^Legion^\\.nuget\\packages\\",
+        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mehrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\^Legion^\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -271,17 +291,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj": {
-                "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj"
+              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj": {
+                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj"
               },
-              "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
-                "projectPath": "C:\\Users\\mehrb\\source\\repos\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj"
+              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
+                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj"
               }
             }
           }
@@ -325,7 +346,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

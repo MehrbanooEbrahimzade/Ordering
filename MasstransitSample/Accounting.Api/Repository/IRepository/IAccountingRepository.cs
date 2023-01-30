@@ -7,6 +7,5 @@ namespace Accounting.Api.Repository.IRepository
     {
         Task<List<AccountingModel>>GetAll();
         Task<bool> AddAccount(AddAccountingCommand account);
-        Task<AccountingModel> GetBy(string userName);
     }
 }
