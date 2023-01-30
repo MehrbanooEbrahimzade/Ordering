@@ -1,7 +1,7 @@
 using Accounting.Api.Repository.IRepository;
 using Accounting.Api.Repository;
-using Accounting.Api.RequestConsumer;
 using System.Reflection;
+using Accounting.Api.Consumer;
 using EventBus.Messages.Events;
 using MassTransit;
 
@@ -24,7 +24,7 @@ namespace Accounting.Api
 
             services.AddMassTransit(x =>
             {
-                x.AddConsumer<CheckOrderStatusConsumer>();
+                x.AddConsumer<CheckOrderStatusConsumer>(c=>c.UseConcurrentMessageLimit(1));
 
                 x.SetKebabCaseEndpointNameFormatter();
                 x.UsingRabbitMq((context, cfg) =>
@@ -35,6 +35,7 @@ namespace Accounting.Api
                 x.AddRequestClient<OrderSubmittedResponse>();
             });
             services.AddScoped<CheckOrderStatusConsumer>();
+
             // Add services to the container.
             services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

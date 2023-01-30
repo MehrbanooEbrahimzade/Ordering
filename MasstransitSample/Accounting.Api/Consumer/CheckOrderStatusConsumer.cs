@@ -4,7 +4,7 @@ using AutoMapper;
 using EventBus.Messages.Events;
 using MassTransit;
 
-namespace Accounting.Api.RequestConsumer
+namespace Accounting.Api.Consumer
 {
     public class CheckOrderStatusConsumer : IConsumer<OrderSubmittedEvent>
     {

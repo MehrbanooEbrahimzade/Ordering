@@ -34,14 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj": {
-                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj"
-              },
-              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
-                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj"
-              },
-              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj": {
-                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj"
+              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj": {
+                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj"
               }
             }
           }
@@ -56,18 +50,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.0, )"
-            },
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.0.78, )"
-            },
             "MassTransit": {
               "target": "Package",
               "version": "[8.0.12, )"
@@ -75,18 +57,6 @@
             "MassTransit.RabbitMQ": {
               "target": "Package",
               "version": "[8.0.12, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[11.1.0, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[5.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -112,109 +82,14 @@
         }
       }
     },
-    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj": {
+    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj",
-        "projectName": "Email.Application",
-        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj",
+        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
+        "projectName": "EventBus.Messages",
+        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
         "packagesPath": "C:\\Users\\^Legion^\\.nuget\\packages\\",
-        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\^Legion^\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
-                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.0, )"
-            },
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[9.5.1, )"
-            },
-            "FluentValidation.DependencyInjectionExtensions": {
-              "target": "Package",
-              "version": "[9.5.1, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[11.1.0, )"
-            },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.0.0, )"
-            },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj",
-        "projectName": "Email.Domain",
-        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj",
-        "packagesPath": "C:\\Users\\^Legion^\\.nuget\\packages\\",
-        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\obj\\",
+        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -248,88 +123,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj",
-        "projectName": "Email.Infrastructure",
-        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\Email.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\^Legion^\\.nuget\\packages\\",
-        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Infrastructure\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\^Legion^\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj": {
-                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Application\\Email.Application.csproj"
-              },
-              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj": {
-                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Email.Api\\Email.Domain\\Email.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.0.78, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[5.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

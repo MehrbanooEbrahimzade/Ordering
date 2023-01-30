@@ -1,7 +1,5 @@
-﻿using AutoMapper;
-using EventBus.Messages.Events;
+﻿using EventBus.Messages.Events;
 using MassTransit;
-using MassTransit.Transports;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Order.Api.Controllers;
@@ -12,30 +10,16 @@ public class RequestController : ControllerBase
 {
     private readonly IRequestClient<OrderSubmittedEvent> _client;
     private readonly ILogger<RequestController> _logger;
-    private readonly IPublishEndpoint _publishEndpoint;
 
-    public RequestController(IRequestClient<OrderSubmittedEvent> client, ILogger<RequestController> logger, IPublishEndpoint publishEndpoint)
+    public RequestController(IRequestClient<OrderSubmittedEvent> client, ILogger<RequestController> logger)
     {
         _client = client;
         _logger = logger;
-        _publishEndpoint = publishEndpoint;
-
     }
 
     [HttpPost]
     public async Task<ActionResult> Post(OrderCommand command)
     {
-        _logger.LogInformation("{name} order information Sent !", command.UserName);
-
-        await _publishEndpoint.Publish<OrderSubmittedEvent>(new
-        {
-            command.Amount,
-            command.ProductId,
-            command.UserId,
-            command.UserName,
-            command.Number,
-            command.EmailAddress
-        }); 
         var response = await _client.GetResponse<OrderSubmittedResponse>(new
         {
             command.Amount,
@@ -46,6 +30,8 @@ public class RequestController : ControllerBase
             command.EmailAddress
 
         });
+
+        _logger.LogInformation("{name} order information published !", command.UserName);
 
         return Ok(response.Message.IsSuccess);
     }

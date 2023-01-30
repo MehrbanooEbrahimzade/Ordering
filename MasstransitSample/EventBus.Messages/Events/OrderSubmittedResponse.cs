@@ -1,6 +1,6 @@
 ﻿namespace EventBus.Messages.Events;
 
-public interface OrderSubmittedResponse
+public record OrderSubmittedResponse
 {
     public bool IsSuccess { get; set; }
 }
