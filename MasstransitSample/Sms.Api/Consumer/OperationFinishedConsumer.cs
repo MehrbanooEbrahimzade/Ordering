@@ -16,6 +16,7 @@ namespace Sms.Api.Consumer
         public Task Consume(ConsumeContext<OperationFinishedEvent> context)
         {
             _logger.LogInformation("dear customer with number :{PhoneNumber}, your order status is --DONE--", context.Message.Number);
+            _logger.LogInformation("-------------------");
             return Task.CompletedTask;
         }
     }

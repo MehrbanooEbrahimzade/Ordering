@@ -1,4 +1,5 @@
-﻿using EventBus.Messages.Events;
+﻿using EventBus.Messages.Common;
+using EventBus.Messages.Events;
 using MassTransit;
 using MassTransit.Transports;
 
@@ -20,7 +21,7 @@ namespace Email.Api.Consumer
         {
             _logger.LogInformation("hello dear {UserName}, your order saved! ", context.Message.UserName);
 
-            var endpoint = await _sendEndpointProvider.GetSendEndpoint(new Uri("queue:operationfinished-queue"));
+            var endpoint = await _sendEndpointProvider.GetSendEndpoint(new Uri(EventBusConstants.OperationFinishedQueue));
             await endpoint.Send(new OperationFinishedEvent { UserName = context.Message.UserName, Number = context.Message.Number });
             _logger.LogInformation("Send to Sms service");
 

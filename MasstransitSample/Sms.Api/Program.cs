@@ -26,7 +26,6 @@ builder.Services.AddMassTransit(x =>
         {
             c.ConfigureConsumer<OrderSavedConsumer>(context);
         });
-
     });
     
 });

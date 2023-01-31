@@ -8,6 +8,6 @@ namespace EventBus.Messages.Common
 {
     public static class EventBusConstants
     {
-        public const string OperationFinishedQueue = "operationfinished-queue";
+        public const string OperationFinishedQueue = "queue:operationfinished-queue";
     }
 }

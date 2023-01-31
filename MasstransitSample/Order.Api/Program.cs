@@ -4,8 +4,6 @@ using System.Reflection;
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 
-builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
-
 // MassTransit-RabbitMQ Configuration
 builder.Services.AddMassTransit(config => {
     config.UsingRabbitMq((ctx, cfg) => {
