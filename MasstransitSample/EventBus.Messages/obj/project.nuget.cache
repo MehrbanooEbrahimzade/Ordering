@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8QvtiEMnkpK8R2JEsold2otwTwgXfYMxIH0XJADJhgUUX5/GyX1ihlAn0pASzZUNjKbqEfDcNhHKxxpyNxqjJw==",
+  "dgSpecHash": "N/KySdP5AuPHD9271ZQ+vx5jYcVaj/U33WKGOVP7pE8ujtWhV2R5RIU9d+EMpI/DgptDB/15O7aSZsqjmffbTQ==",
   "success": true,
-  "projectFilePath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
+  "projectFilePath": "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

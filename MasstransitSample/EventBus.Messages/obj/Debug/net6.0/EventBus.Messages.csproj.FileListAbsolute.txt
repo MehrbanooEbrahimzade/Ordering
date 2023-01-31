@@ -34,3 +34,15 @@ D:\programing\coding\Ordering\Ordering\MasstransitSample\EventBus.Messages\obj\D
 D:\programing\coding\Ordering\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\refint\EventBus.Messages.dll
 D:\programing\coding\Ordering\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.pdb
 D:\programing\coding\Ordering\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\ref\EventBus.Messages.dll
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.deps.json
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.dll
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.pdb
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.csproj.AssemblyReference.cache
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.AssemblyInfoInputs.cache
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.AssemblyInfo.cs
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.csproj.CoreCompileInputs.cache
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.dll
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\refint\EventBus.Messages.dll
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.pdb
+C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\obj\Debug\net6.0\ref\EventBus.Messages.dll

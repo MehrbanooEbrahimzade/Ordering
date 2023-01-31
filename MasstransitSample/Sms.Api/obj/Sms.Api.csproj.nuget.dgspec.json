@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Sms.Api\\Sms.Api.csproj": {}
+    "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\Sms.Api\\Sms.Api.csproj": {}
   },
   "projects": {
-    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj": {
+    "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
+        "projectUniqueName": "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
         "projectName": "EventBus.Messages",
-        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
-        "packagesPath": "C:\\Users\\^Legion^\\.nuget\\packages\\",
-        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\obj\\",
+        "projectPath": "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj",
+        "packagesPath": "C:\\Users\\mehrb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\EventBus.Messages\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\^Legion^\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mehrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,26 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Sms.Api\\Sms.Api.csproj": {
+    "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\Sms.Api\\Sms.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Sms.Api\\Sms.Api.csproj",
+        "projectUniqueName": "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\Sms.Api\\Sms.Api.csproj",
         "projectName": "Sms.Api",
-        "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Sms.Api\\Sms.Api.csproj",
-        "packagesPath": "C:\\Users\\^Legion^\\.nuget\\packages\\",
-        "outputPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\Sms.Api\\obj\\",
+        "projectPath": "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\Sms.Api\\Sms.Api.csproj",
+        "packagesPath": "C:\\Users\\mehrb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\Sms.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\^Legion^\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mehrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,15 +77,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj": {
-                "projectPath": "D:\\programing\\coding\\Ordering\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj"
+              "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj": {
+                "projectPath": "C:\\Users\\mehrb\\source\\repos\\Order\\Ordering\\MasstransitSample\\EventBus.Messages\\EventBus.Messages.csproj"
               }
             }
           }
@@ -143,7 +131,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

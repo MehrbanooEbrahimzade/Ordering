@@ -18,9 +18,15 @@ builder.Services.AddMassTransit(x =>
     {
         cfg.Host(configuration["EventBusSettings:HostAddress"]);
         cfg.ConfigureEndpoints(context);
-        cfg.ReceiveEndpoint(EventBusConstants.OperationFinishedQueue, c => {
+        cfg.ReceiveEndpoint(EventBusConstants.OperationFinishedQueue, c =>
+        {
             c.ConfigureConsumer<OperationFinishedConsumer>(context);
         });
+        cfg.ReceiveEndpoint(c =>
+        {
+            c.ConfigureConsumer<OrderSavedConsumer>(context);
+        });
+
     });
     
 });

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EventBus.Messages
-build_property.ProjectDir = D:\programing\coding\Ordering\Ordering\MasstransitSample\EventBus.Messages\
+build_property.ProjectDir = C:\Users\mehrb\source\repos\Order\Ordering\MasstransitSample\EventBus.Messages\
