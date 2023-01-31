@@ -30,3 +30,10 @@ D:\programing\coding\Ordering\Ordering\MasstransitSample\Sms.Api\obj\Debug\net6.
 D:\programing\coding\Ordering\Ordering\MasstransitSample\Sms.Api\obj\Debug\net6.0\Sms.Api.pdb
 D:\programing\coding\Ordering\Ordering\MasstransitSample\Sms.Api\obj\Debug\net6.0\Sms.Api.genruntimeconfig.cache
 D:\programing\coding\Ordering\Ordering\MasstransitSample\Sms.Api\obj\Debug\net6.0\ref\Sms.Api.dll
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Sms.Api\bin\Debug\net6.0\MassTransit.dll
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Sms.Api\bin\Debug\net6.0\MassTransit.Abstractions.dll
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Sms.Api\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Sms.Api\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Sms.Api\bin\Debug\net6.0\System.Text.Json.dll
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Sms.Api\bin\Debug\net6.0\EventBus.Messages.dll
+D:\programing\coding\Ordering\Ordering\MasstransitSample\Sms.Api\bin\Debug\net6.0\EventBus.Messages.pdb

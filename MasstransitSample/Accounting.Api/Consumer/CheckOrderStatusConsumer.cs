@@ -34,8 +34,10 @@ namespace Accounting.Api.Consumer
             };
 
             var succeed = await _accountingRepository.AddAccount(accounting);
-           
-            await context.RespondAsync<OrderSubmittedResponse>(new
+            if (succeed)
+                SendOperationFinished();
+            
+                await context.RespondAsync<OrderSubmittedResponse>(new
             {
                 IsSuccess = succeed
             });

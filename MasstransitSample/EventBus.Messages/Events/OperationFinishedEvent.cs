@@ -2,6 +2,6 @@
 
 public record OperationFinishedEvent
 {
-    public string UserName { get; set; }
-    public string Number { get; set; }
+    public string UserName { get;init;}
+    public string Number { get;init;}
 }

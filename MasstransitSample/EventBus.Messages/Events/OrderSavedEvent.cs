@@ -2,9 +2,9 @@
 
 public record OrderSavedEvent
 {
-    public int ProductId { get; set; }
-    public int Amount { get; set; }
-    public string UserName { get; set; }
-    public string Number { get; set; }
-    public string EmailAddress { get; set; }
+    public int ProductId { get; init; }
+    public int Amount { get; init; }
+    public string UserName { get; init; }
+    public string Number { get; init; }
+    public string EmailAddress { get; init; }
 }
