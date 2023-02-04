@@ -9,8 +9,11 @@ var configuration = builder.Configuration;
 // MassTransit-RabbitMQ Configuration
 builder.Services.AddMassTransit(x =>
 {
-    x.AddConsumer<OperationFinishedConsumer>().Endpoint(e => { e.Temporary = true; });
-    x.AddConsumer<OrderSavedConsumer>();
+    x.AddConsumer<SmsOperationFinishedConsumer>().Endpoint(e =>
+    {
+        e.Temporary = true;
+    });
+    x.AddConsumer<SmsOrderSavedConsumer>();
 
     x.SetKebabCaseEndpointNameFormatter();
 
@@ -20,11 +23,11 @@ builder.Services.AddMassTransit(x =>
         cfg.ConfigureEndpoints(context);
         cfg.ReceiveEndpoint(EventBusConstants.OperationFinishedQueue, c =>
         {
-            c.ConfigureConsumer<OperationFinishedConsumer>(context);
+            c.ConfigureConsumer<SmsOperationFinishedConsumer>(context);
         });
         cfg.ReceiveEndpoint(c =>
         {
-            c.ConfigureConsumer<OrderSavedConsumer>(context);
+            c.ConfigureConsumer<SmsOrderSavedConsumer>(context);
         });
     });
     

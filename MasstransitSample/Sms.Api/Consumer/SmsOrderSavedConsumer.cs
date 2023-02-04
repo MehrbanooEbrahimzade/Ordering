@@ -4,11 +4,11 @@ using Microsoft.Extensions.Logging;
 
 namespace Sms.Api.Consumer
 {
-    public class OrderSavedConsumer : IConsumer<OrderSavedEvent>
+    public class SmsOrderSavedConsumer : IConsumer<OrderSavedEvent>
     {
-        private readonly ILogger<OrderSavedConsumer> _logger;
+        private readonly ILogger<SmsOrderSavedConsumer> _logger;
 
-        public OrderSavedConsumer(ILogger<OrderSavedConsumer> logger)
+        public SmsOrderSavedConsumer(ILogger<SmsOrderSavedConsumer> logger)
         {
             _logger = logger;
         }

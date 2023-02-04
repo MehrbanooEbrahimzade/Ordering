@@ -1,9 +1,9 @@
-name: dockercompose5936726716009857193
+name: dockercompose4688353841016110548
 services:
-  emaildb:
-    container_name: emaildb
+  accountingdb:
+    container_name: accountingdb
     environment:
-      POSTGRES_DB: emaildb
+      POSTGRES_DB: accountingdb
       POSTGRES_PASSWORD: admin1234
       POSTGRES_USER: admin
     image: postgres
@@ -23,8 +23,8 @@ services:
   pgadmin:
     container_name: pgadmin
     environment:
-      PGADMIN_DEFAULT_EMAIL: admin@aspnetrun.com
-      PGADMIN_DEFAULT_PASSWORD: admin1234
+      PGADMIN_DEFAULT_EMAIL: admin@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: admin
     image: dpage/pgadmin4
     networks:
       default: null
@@ -56,9 +56,9 @@ services:
     restart: always
 networks:
   default:
-    name: dockercompose5936726716009857193_default
+    name: dockercompose4688353841016110548_default
 volumes:
   pgadmin_data:
-    name: dockercompose5936726716009857193_pgadmin_data
+    name: dockercompose4688353841016110548_pgadmin_data
   postgres_data:
-    name: dockercompose5936726716009857193_postgres_data
+    name: dockercompose4688353841016110548_postgres_data

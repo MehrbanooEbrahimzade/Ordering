@@ -8,8 +8,8 @@ var configuration = builder.Configuration;
 // MassTransit-RabbitMQ Configuration
 builder.Services.AddMassTransit(x =>
 {
-    x.AddConsumer<OrderSubmittedConsumer>();
-    x.AddConsumer<OrderSavedConsumer>();
+    x.AddConsumer<EmailOrderSubmittedConsumer>();
+    x.AddConsumer<EmailOrderSavedConsumer>();
 
     x.SetKebabCaseEndpointNameFormatter();
 

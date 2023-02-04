@@ -24,7 +24,7 @@ namespace Accounting.Api
 
             services.AddMassTransit(x =>
             {
-                x.AddConsumer<CheckOrderStatusConsumer>(c=>c.UseConcurrentMessageLimit(1));
+                x.AddConsumer<AccountingCheckOrderStatusConsumer>(c=>c.UseConcurrentMessageLimit(1));
 
                 x.SetKebabCaseEndpointNameFormatter();
                 x.UsingRabbitMq((context, cfg) =>
@@ -34,7 +34,7 @@ namespace Accounting.Api
                 });
                 x.AddRequestClient<OrderSubmittedResponse>();
             });
-            services.AddScoped<CheckOrderStatusConsumer>();
+            services.AddScoped<AccountingCheckOrderStatusConsumer>();
 
             // Add services to the container.
             services.AddControllers();

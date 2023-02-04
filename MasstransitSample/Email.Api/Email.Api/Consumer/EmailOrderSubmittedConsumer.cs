@@ -4,11 +4,11 @@ using MassTransit;
 
 namespace Email.Api.Consumer
 {
-    public class OrderSubmittedConsumer : IConsumer<OrderSubmittedEvent>
+    public class EmailOrderSubmittedConsumer : IConsumer<OrderSubmittedEvent>
     {
-        private readonly ILogger<OrderSubmittedConsumer> _logger;
+        private readonly ILogger<EmailOrderSubmittedConsumer> _logger;
 
-        public OrderSubmittedConsumer(ILogger<OrderSubmittedConsumer> logger)
+        public EmailOrderSubmittedConsumer(ILogger<EmailOrderSubmittedConsumer> logger)
         {
             _logger = logger;
         }

@@ -7,14 +7,14 @@ using MassTransit.Transports;
 
 namespace Accounting.Api.Consumer
 {
-    public class CheckOrderStatusConsumer : IConsumer<OrderSubmittedEvent>
+    public class AccountingCheckOrderStatusConsumer : IConsumer<OrderSubmittedEvent>
     {
         private readonly IAccountingRepository _accountingRepository;
         private readonly IPublishEndpoint _publishEndpoint;
-        private readonly ILogger<CheckOrderStatusConsumer> _logger;
+        private readonly ILogger<AccountingCheckOrderStatusConsumer> _logger;
         private readonly IMapper _mapper;
 
-        public CheckOrderStatusConsumer(IAccountingRepository accountingRepository, ILogger<CheckOrderStatusConsumer> logger, IMapper mapper, IPublishEndpoint publishEndpoint)
+        public AccountingCheckOrderStatusConsumer(IAccountingRepository accountingRepository, ILogger<AccountingCheckOrderStatusConsumer> logger, IMapper mapper, IPublishEndpoint publishEndpoint)
         {
             _accountingRepository = accountingRepository;
             _logger = logger;
