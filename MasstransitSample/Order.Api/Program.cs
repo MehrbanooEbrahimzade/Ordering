@@ -1,8 +1,12 @@
 using MassTransit;
-using System.Reflection;
+using Order.Api.HostedServices;
+using Order.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
+
+builder.Services.AddHostedService<HostedService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 // MassTransit-RabbitMQ Configuration
 builder.Services.AddMassTransit(config => {
